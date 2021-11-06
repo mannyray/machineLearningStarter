@@ -1,6 +1,5 @@
 # machineLearningStarter
 
-
 This repository is meant to provide a series of scripts and instructions on how to get started with Tensorflow tflite models on the Android. The end product of these scripts is in the image below:
 
 ![](result.png)
