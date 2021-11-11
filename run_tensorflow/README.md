@@ -1,6 +1,6 @@
 # Putting the tlifte model into 
 
-It assumed you have completed `setup_tensorflow_env` and you have a tflite model `result.tflite` and labelmap `labelmap.txt`. I have included sample model and labelmap in this directory (generated from `tensorflow_1` instructions). 
+It assumed you have completed `setup_tensorflow_env` and you have a tflite model `result.tflite` and labelmap `labelmap.txt`. I have included sample model and labelmap in this directory ( `result.tflite` generated from `tensorflow_1` instructions and `result_2.tflite` generated from `tensorflow_2` ). 
 
 Clone https://github.com/mannyray/tfliteCustomApp and build the app in Android Studio to your phone to see the default app works (there are a lot of instructions implicit here -> learning how to use Android Studio is out of scope here).
 

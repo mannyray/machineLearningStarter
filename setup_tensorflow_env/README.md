@@ -146,7 +146,7 @@ python3 models/research/object_detection/model_main_tf2.py --alsologtostderr --m
 ### Convert to TFLITE format
 
 ```
-#had to instal 2.4.0 tensorflow
+pip install tensorflow==2.4.0
 cd ~/tensorflow_2
 export_dir=export_tflite
 mkdir -p $export_dir

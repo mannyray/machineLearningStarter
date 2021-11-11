@@ -6,7 +6,7 @@ This repository is meant to provide a series of scripts and instructions on how 
 
 You will be able to detect coins.
 
-Reproducability and getting started quick is important for the general reader. I have made sure to include instructions and scripts that have been tested on an AWS AMI that you can use yourself right away without wasting time adjusting scripts to fit your machine. It assumed reader is familiar with Bash, SSHing, basic Python, basic AWS for creating EC2 instance and basic Android Studio. To train the Tensorflow 1 model on c4.4xlarge Ubuntu EC2 instance takes one hour and forty four minutes. The Tensorflow 2 model is slightly more time consuming.
+Reproducability and getting started quick is important for the general reader. I have made sure to include instructions and scripts that have been tested on an AWS AMI that you can use yourself right away without wasting time adjusting scripts to fit your machine. It assumed reader is familiar with Bash, SSHing, basic Python, basic AWS for creating EC2 instance and basic Android Studio. To train the Tensorflow 1 model on c4.4xlarge Ubuntu EC2 instance takes one hour and forty four minutes. The Tensorflow 2 model took three hours and seventeen minutes.
 
 The setup involved with Tensorflow and Android is not trivial. I found Tensorflow is finicky to install and use with the various commands used in `setup_tensorflow_env`. There are instances where I had to switch Tensorflow versions in between commands. In addition, at the time of writing, latest commit for Android app did not work with my tflite models which is why I used a previously forked version which I share with you in `run_tensorflow`.
 
